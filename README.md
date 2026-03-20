@@ -13,7 +13,7 @@ Esta es una página web interactiva desarrollada como parte de mi formación par
 * Organización de recursos multimedia para optimización de carga.
 
 ## 🔗 Demo en vivo
-Podés ver el proyecto funcionando aquí: https://695459ca1e9971d41e564635--exquisite-yeot-d6b028.netlify.app/
+Podés ver el proyecto funcionando aquí: https://interactivepage.netlify.app/
 
 ## 🖼️ Galería del Proyecto
 
