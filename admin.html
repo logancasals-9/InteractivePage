@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Librojuego</title>
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="logo">
+            <img src="./multimedia/logoboca.png" alt="Imagen del Escudo de boca" >
+            </a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="index.html#iniciosesion">Entrá Acá</a></li>
+                <li><a href="index.html#historia">Jugar</a></li>
+                <li><a href="index.html#puntajes">Ranking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="bienvenida">
+        <h1 id="mensajebienvenida"></h1>
+        <p>Apellido y nombre: Melanie Dos Santos, usuario: <span id="userDetails"></span></p>
+
+        <section>
+            <h3></h3>
+            <div class="abm-formularios">
+                    <div class="Alta">
+                        <h4>Alta de Capítulo</h4>
+                        <label for="titulo">Título del capítulo:</label>
+                        <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título"><br>
+                        <label for="contenido">Contenido:</label>
+                        <textarea id="contenido" name="contenido" rows="4" placeholder="Escriba el contenido"></textarea><br>
+                        <button type="submit">Agregar</button>
+                    </div>
+                    <div class="Baja">
+                        <h4>Baja de Capítulo</h4>
+                        <label for="capitulo-id">ID del capítulo:</label>
+                        <input type="text" id="capitulo-id" name="capitulo-id" placeholder="Ingrese ID"><br>
+                        <button type="submit">Eliminar</button>
+                    </div>
+                    <div class="Modificar">
+                        <h4>Modificación de Capítulo</h4>
+                        <label for="mod-id">ID del capítulo:</label>
+                        <input type="text" id="mod-id" name="mod-id" placeholder="Ingrese ID"><br>
+                        <label for="nuevo-contenido">Nuevo Contenido:</label>
+                        <textarea id="nuevo-contenido" name="nuevo-contenido" rows="4" placeholder="Modifique el contenido"></textarea><br>
+                        <button type="submit">Modificar</button>
+                    </div>
+            </div>
+        </section>
+        <script src="./js/admin.js"></script>
+    <footer>
+        <p>Club Atletico Boca Juniors. Todos los derechos son reservados@</p>
+    </footer>
+    <script>
+
+    </script>
+</body>
+</html>

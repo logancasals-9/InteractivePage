@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro Juego</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <div class="logo">
+                <a href="index.html" class="logo">
+                <img src="./multimedia/logoboca.png" alt="Imagen del Escudo de boca" >
+                </a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="#iniciosesion">Entrá Acá</a></li>
+                    <li><a href="#historia">Jugar</a></li>
+                    <li><a href="#puntajes">Ranking</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section id="presentacion">
+            <h2>Bienvenidos a Jugá con Boca Juniors</h2>
+            <h3>Jugá y participá contra La Mitad Mas Uno para demostrar todo lo que sabes de futbol.<br> Cada decisión desencadena diferentes resultados.</h3>
+        </section>
+
+        <section id="iniciosesion">
+            <h2>Iniciá Sesión</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="usuario" placeholder="Nombre de usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+                <p id="errorMessage" class="error"></p>
+            </form>
+        </section>
+
+        <section id="historia">
+            <h2>Comenzá el camino hacia la Gloria Eterna</h2>
+            <p>¿Estás listo para demostrar todo lo que sabes de futbol? Decidí y lleva al club a la máxima conquista.</p>
+            <a href="capitulo1.html" class="btn">Comenzar Historia</a>
+        </section>
+        
+
+        <section id="puntajes">
+            <h2>Puntajes más Altos</h2>
+            <table class="score-table">
+                <thead>
+                    <tr>
+                        <th>Posición</th>
+                        <th>Jugador</th>
+                        <th>Puntaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juan</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Martin</td>
+                        <td>1400</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Carlos</td>
+                        <td>1300</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Club Atletico Boca Juniors. Todos los derechos son reservados@</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
