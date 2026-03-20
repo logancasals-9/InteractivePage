@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const errorMessage = document.getElementById("errorMessage");
 
     if (usuario === "mel" && password === "123") {
-        var url = "/admin.html?usuario="+ usuario;
+        var url = "admin.html?usuario="+ usuario;
         window.location.href=url;
     } else {
         errorMessage.textContent = "Usuario incorrecto";
